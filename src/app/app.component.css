@@ -1,0 +1,13 @@
+.my-container {
+    margin: 20px 10%;
+}
+
+.center-nav {
+    background-color: white;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.nav-button-container {
+    margin-left: auto;
+}

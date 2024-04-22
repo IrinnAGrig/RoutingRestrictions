@@ -1,0 +1,19 @@
+<div class="my-container">
+  <div class="center-nav">
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/news">News</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/profile">Profile</a>
+      </li>
+      <li class="nav-button-container">
+        <button class="btn btn-outline-dark" routerLink="/login">{{isAuthenticated() ? 'Logout' : 'Login' }}</button>
+      </li>
+    </ul>
+  </div>
+  <router-outlet></router-outlet>
+</div>

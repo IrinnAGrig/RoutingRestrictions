@@ -1,0 +1,7 @@
+<div *ngFor="let newsItem of newsList" class="news-item">
+    <h2>{{ newsItem.title }}</h2>
+    <p class="meta-info"><strong>Category:</strong> {{ newsItem.category }}</p>
+    <p class="meta-info"><strong>Author:</strong> {{ newsItem.author }}</p>
+    <p class="meta-info"><strong>Published Date:</strong> {{ newsItem.publishedDate | date:'longDate' }}</p>
+    <p>{{ newsItem.content }}</p>
+</div>
